@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+
+  &.nav__scrolled {
+    background-color: var(--netflix-black);
+  }
+
+  .nav__logo {
+    position: fixed;
+    left: 20px;
+    object-fit: contain;
+    width: 80px;
+  }
+
+  .nav__avatar {
+    position: fixed;
+    right: 20px;
+    object-fit: contain;
+    width: 30px;
+  }
+}
